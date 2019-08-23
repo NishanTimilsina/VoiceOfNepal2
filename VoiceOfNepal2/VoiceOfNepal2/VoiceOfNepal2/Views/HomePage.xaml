@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:VoiceOfNepal2.Views"
+             x:Class="VoiceOfNepal2.Views.HomePage" Title="Voice of Nepal Season 2">
+  <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ListView ItemsSource="{Binding Items}" HasUnevenRows="True" ItemSelected="ListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="15,20,15,20">
+                                <Image Source="{Binding HighThumbnailUrl}" Aspect="AspectFill" HeightRequest="200"/>
+                            <Label Text="{Binding Title}" TextColor="Black" Margin="0,5,0,0" FontSize="15"/>
+                            <Label Text="{Binding ChannelTitle}" Margin="0,-5,0,0" TextColor="#767676" FontSize="13"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ViewCount, StringFormat='{0:n0} views'}" TextColor="#767676" FontSize="13"/>
+                                <Label Text="{Binding PublishedAtHumanized}" TextColor="#767676" FontSize="13"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            <!--<local:AdMobView  AdUnitId="{Binding AdUnitId}" />-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

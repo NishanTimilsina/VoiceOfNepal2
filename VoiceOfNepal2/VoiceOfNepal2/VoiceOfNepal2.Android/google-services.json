@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "552597081049",
+    "firebase_url": "https://voiceofnepal.firebaseio.com",
+    "project_id": "voiceofnepal",
+    "storage_bucket": "voiceofnepal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552597081049:android:fec9938708a209c6",
+        "android_client_info": {
+          "package_name": "com.voiceofnepal2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552597081049-43lvf2thbmbnh10fuq6soa8prvmkodt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBggSHLlj1fmsEd366oRA92tCpYN3hSmc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552597081049-43lvf2thbmbnh10fuq6soa8prvmkodt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

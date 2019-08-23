@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.Android\\VoiceOfNepal2.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.Android\\VoiceOfNepal2.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.Android\\VoiceOfNepal2.Android.csproj",
+        "projectName": "VoiceOfNepal2.Android",
+        "projectPath": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.Android\\VoiceOfNepal2.Android.csproj",
+        "packagesPath": "C:\\Users\\51568\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\51568\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.csproj": {
+                "projectPath": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3-beta1, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.FFImageLoading.Svg": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Firebase.Ads": {
+              "target": "Package",
+              "version": "[71.1601.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            },
+            "Xamarin.GooglePlayServices.Ads": {
+              "target": "Package",
+              "version": "[71.1720.1, )"
+            },
+            "Xamarin.GooglePlayServices.Basement": {
+              "target": "Package",
+              "version": "[71.1620.0, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.csproj",
+        "projectName": "VoiceOfNepal2",
+        "projectPath": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2.csproj",
+        "packagesPath": "C:\\Users\\51568\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\51568\\source\\repos\\VoiceOfNepal2\\VoiceOfNepal2\\VoiceOfNepal2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\51568\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FreshMvvm": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.3.0-preview, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3-beta1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.1.0.555618, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
